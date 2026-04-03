@@ -1,0 +1,14 @@
+# requirements.txt
+# Core ML / CV
+ultralytics>=8.0.0        # YOLOv8 model loading and inference
+opencv-python>=4.8.0      # Image I/O, contour analysis, drawing
+numpy>=1.24.0             # Numerical operations
+
+# Image utilities
+Pillow>=10.0.0            # PIL-based brightness adjustment
+
+# Visualisation (offline analysis scripts)
+matplotlib>=3.7.0         # Figures 1 & 2 in scripts/brightness_analysis.py
+
+# PDF generation
+reportlab>=3.6.0          # Structured PDF reports
